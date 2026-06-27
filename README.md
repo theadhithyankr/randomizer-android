@@ -1,24 +1,58 @@
+<div align="center">
+
 # Randomizer Android
 
-Simple Android randomizer app built in Java as an early Android Studio project.
+Android utility app for random choices, numbers, or selections.
+
+![Gradle](https://img.shields.io/badge/Gradle-02303A?logo=gradle) ![Java](https://img.shields.io/badge/Java-007396)
+
+[Repository](https://github.com/theadhithyankr/randomizer-android)
+
+</div>
+
+## Overview
+
+Randomizer Android is a utility project in the TheAdhithyanKR/randomizer-android repository. Simple Android randomizer app built in Java as an early Android Studio project.
+
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The commands below are based on the build files present in the repository.
 
 ## Key Features
-- Simple Android randomizer app built in Java as an early Android Studio project
-- Android or JVM project structure is documented with the relevant Gradle, Kotlin, or Java entry points.
+
+- Native Android project structure
+- Random selection workflow for quick decisions
+- Gradle-based build path for emulator or device testing
+- Compact mobile utility suited for learning Android fundamentals
 
 ## Tech Stack
+
+- Gradle
 - Java
 
-## Setup and Run
-```bash
-git clone https://github.com/theadhithyankr/randomizer-android.git
-cd randomizer-android
-# Open the source files in your preferred editor and run with the matching local toolchain.
-```
+## Project Structure
+
+`	ext
+.
+|-- Randomizer/gradle.properties
+|-- Randomizer/gradlew
+|-- Randomizer/gradlew.bat
+|-- Randomizer/local.properties
+|-- README.md
+`
+
+## Setup
+
+`ash
+javac Randomizer/app/src/androidTest/java/com/example/randomizer/ExampleInstrumentedTest.java
+java <MainClass>
+`
 
 ## What This Project Demonstrates
-- Working with Android or JVM project structure, build tooling, and platform-specific source layout.
-- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-## Repository
-- GitHub: https://github.com/theadhithyankr/randomizer-android
+- Ability to turn a focused product idea into a working codebase
+- Practical use of the repository's chosen framework and tooling
+- Attention to deployable structure, repeatable setup, and portfolio-ready presentation
+- Project-specific implementation around utility
+
+## Links
+
+- Repository: [https://github.com/theadhithyankr/randomizer-android](https://github.com/theadhithyankr/randomizer-android)
