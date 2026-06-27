@@ -30,21 +30,21 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- Randomizer/gradle.properties
 |-- Randomizer/gradlew
 |-- Randomizer/gradlew.bat
 |-- Randomizer/local.properties
 |-- README.md
-`
+```
 
 ## Setup
 
-`ash
+```bash
 javac Randomizer/app/src/androidTest/java/com/example/randomizer/ExampleInstrumentedTest.java
 java <MainClass>
-`
+```
 
 ## What This Project Demonstrates
 
